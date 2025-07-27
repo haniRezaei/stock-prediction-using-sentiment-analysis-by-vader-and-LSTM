@@ -1,5 +1,6 @@
 # stock-prediction-using-sentiment-analysis-by-vader-and-LSTM
 we have two datasets that ine is for news haedlones and the other is for stock data, from 2008 to 2016
+the data is from kaggle https://www.kaggle.com/datasets/aaron7sun/stocknews/data
 # sentiment analysis by Vader
 we have used VADE, a pre-built lexicon and rule-based, sentiment analysis to give each headline a sentiment score, Each headline got a score from -1 (very negative) to +1 (very positive)
 Then we aggregated the scores for each day to capture the overall market sentiment for a given time.
